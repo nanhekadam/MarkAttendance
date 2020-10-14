@@ -1,0 +1,34 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="ipl_team_names">
+        <item>Chennai Super Kings</item>
+        <item>Delhi Capitals</item>
+        <item>Kings XI Punjab</item>
+        <item>Kolkata Knight Riders</item>
+        <item>Mumbai Indians</item>
+        <item>Rajasthan Royals</item>
+        <item>Royal Challengers Bangalore</item>
+        <item>Sunrisers Hyderabad</item>
+    </string-array>
+
+    <array name="ipl_eam_logos">
+        <item>@drawable/csk</item>
+        <item>@drawable/dc</item>
+        <item>@drawable/kxip</item>
+        <item>@drawable/kkr</item>
+        <item>@drawable/mi</item>
+        <item>@drawable/rr</item>
+        <item>@drawable/rcb</item>
+        <item>@drawable/srh</item>
+    </array>
+</resources>

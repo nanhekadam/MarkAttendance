@@ -1,0 +1,758 @@
+<resources>
+    <string name="app_name">Attendance Okay</string>
+
+    <!-- View Titles -->
+    <string name="btn_mark_attendance">Login to ESS Portal</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="input_user_details_title">Save/Update User Details</string>
+    <string name="edit_text_id_hint">Enter Employee ID</string>
+    <string name="edit_text_pwd_hint">Password</string>
+    <string name="button_set_time">save</string>
+
+    <!-- Activity Labels -->
+    <string name="web_activity_label">ESS Portal</string>
+    <string name="settings_activity_label">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="privacy_activity_label">Privacy Policy</string>
+
+    <!-- Action Titles -->
+    <string name="action_settings">Settings</string>
+    <string name="action_privacy">Privacy Policy</string>
+    <string name="action_share">Share app</string>
+
+    <!-- Keys -->
+    <string name="key_username">USERNAME</string>
+    <string name="key_password">PASSWORD</string>
+    <string name="key_schedule_time">SCHEDULE_TIME</string>
+    <string name="CHANNEL_ID">MARK_ATTENDANCE</string>
+    <string name="EXTRA_TIME_KEY">TIME_LONG</string>
+    <string name="key_timer_first_timer">TIMER_FIRST_TIME</string>
+    <string name="tv_made_in_india">Developed in India with love</string>
+    <string name="key_login_attempt">LOGIN_ATTEMPT</string>
+
+    <!-- Texts -->
+    <string name="sure">Sure</string>
+    <string name="okay">Okay</string>
+    <string name="save">Save</string>
+    <string name="privacy_policy_text">
+        <![CDATA[
+            <p>\"Attendance Okay\" (hereinafter referred as \"app\") is an effort to ease out the process
+            of marking daily attendance on the portal.</p>
+            <p>The app <b>does not</b> collect any personal information or data. It saves your login credentials
+            for the \'employee self service portal\' on your device only. If the data from the app is cleared or
+            the app is uninstalled, the data gets cleared in the process.</p>
+            <p>Other than your correct login credentials which are required for logon to the ess portal,
+            the app does not require any special permission from you to work.</p>
+            <p>This app is not linked with troubleshooting your issues related to ESS portal as such and
+            you are required to use already established channels to address so.</p>
+            <p><i>Contact for any query at:</i><\br>
+            amarpreet.rites@gmail.com
+            </p>
+        ]]>
+    </string>
+    <string name="welcome_message">Simplify your Attendance Marking experience</string>
+    <string name="username_pwd_set_toast_alert_first_time">Login details saved. To change/update go to app settings</string>
+    <string name="username_pwd_set_toast_alert">Login details updated</string>
+    <string name="login_details_incomplete_toast_alert">Login details are incomplete, kindly login manually.</string>
+    <string name="input_user_details_alert">Kindly input correct details</string>
+
+    <!--Ads Banner Ids-->
+    <string name="ads_banner_main_id">ca-app-pub-8094821066311048/6825826947</string>
+    <string name="ads_banner_privacy_id">ca-app-pub-8094821066311048/5269862802</string>
+    <string name="ads_banner_web_id">ca-app-pub-8094821066311048/5449058298</string>
+
+    <!-- Preference Titles -->
+    <string name="pref_notify_mark_attendance">Notify to mark attendance</string>
+    <string name="pref_key_login">pref_key_login_details</string>
+    <string name="pref_key_notify">pref_key_notification</string>
+    <string name="pref_key_notif_time">pref_key_notif_time</string>
+    <string name="pref_set_notif_time">Set Notification Time</string>
+    <string name="pref_login_details">Save / Update Login Details</string>
+    <string name="pref_category_notification">Notification</string>
+    <string name="pref_category_user_details">Login Details</string>
+    <string name="pref_time_summary">09:00 am (default)</string>
+
+    <!-- Intent Share Texts-->
+    <string name="share_text">Simplify your attendance marking experience on the ESS portal!\n\nDownload <b>*Attendance Okay*</b> - https://bit.ly/attendance-okay</string>
+    <string name="share_chooser_title">Share app using …</string>
+
+    <string name="ipl_schedule">
+      {
+  \"matches\": [
+    {
+      \"unique_id\": 1216527,
+      \"date\": \"2020-09-27T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-09-27T14:00:00.000Z\",
+      \"team-1\": \"Rajasthan Royals\",
+      \"team-2\": \"Kings XI Punjab\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"toss_winner_team\": \"Rajasthan Royals\",
+      \"winner_team\": \"Rajasthan Royals\",
+      \"matchStarted\": true
+    },
+    {
+      \"unique_id\": 1229350,
+      \"date\": \"2020-09-27T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-09-27T09:30:00.000Z\",
+      \"team-1\": \"Southern Vipers\",
+      \"team-2\": \"Northern Diamonds\",
+      \"squad\": true,
+      \"toss_winner_team\": \"Northern Diamonds\",
+      \"winner_team\": \"Southern Vipers\",
+      \"matchStarted\": true,
+      \"type\": \"\"
+    },
+    {
+      \"unique_id\": 1228932,
+      \"date\": \"2020-09-27T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-09-27T09:30:00.000Z\",
+      \"team-1\": \"Scorchers Women\",
+      \"team-2\": \"Typhoons Women\",
+      \"toss_winner_team\": \"Scorchers Women\",
+      \"winner_team\": \"Typhoons Women\",
+      \"squad\": false,
+      \"matchStarted\": true,
+      \"type\": \"\"
+    },
+    {
+      \"unique_id\": 1223942,
+      \"date\": \"2020-09-27T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-09-27T03:45:00.000Z\",
+      \"team-1\": \"Australia Women\",
+      \"team-2\": \"New Zealand Women\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"toss_winner_team\": \"New Zealand Women\",
+      \"winner_team\": \"Australia Women\",
+      \"matchStarted\": true
+    },
+    {
+      \"unique_id\": 1216547,
+      \"date\": \"2020-09-28T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-09-28T14:00:00.000Z\",
+      \"team-1\": \"Royal Challengers Bangalore\",
+      \"team-2\": \"Mumbai Indians\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"toss_winner_team\": \"Mumbai Indians\",
+      \"matchStarted\": true
+    },
+    {
+      \"unique_id\": 1211210,
+      \"date\": \"2020-09-28T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-09-28T09:15:00.000Z\",
+      \"team-1\": \"Leinster Lightning\",
+      \"team-2\": \"North-West Warriors\",
+      \"squad\": true,
+      \"toss_winner_team\": \"North-West Warriors\",
+      \"matchStarted\": true,
+      \"type\": \"\"
+    },
+    {
+      \"unique_id\": 1230858,
+      \"date\": \"2020-09-28T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-09-28T17:00:00.000Z\",
+      \"team-1\": \"England Women\",
+      \"team-2\": \"West Indies Women\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216532,
+      \"date\": \"2020-09-29T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-09-29T14:00:00.000Z\",
+      \"team-1\": \"Delhi Capitals\",
+      \"team-2\": \"Sunrisers Hyderabad\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216504,
+      \"date\": \"2020-09-30T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-09-30T14:00:00.000Z\",
+      \"team-1\": \"Rajasthan Royals\",
+      \"team-2\": \"Kolkata Knight Riders\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1231319,
+      \"date\": \"2020-09-30T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-09-30T10:00:00.000Z\",
+      \"team-1\": \"Northern (Pakistan)\",
+      \"team-2\": \"Khyber Pakhtunkhwa\",
+      \"type\": \"Twenty20\",
+      \"squad\": false,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1231320,
+      \"date\": \"2020-09-30T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-09-30T14:30:00.000Z\",
+      \"team-1\": \"Central Punjab (Pakistan)\",
+      \"team-2\": \"Southern Punjab (Pakistan)\",
+      \"type\": \"Twenty20\",
+      \"squad\": false,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1230859,
+      \"date\": \"2020-09-30T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-09-30T17:00:00.000Z\",
+      \"team-1\": \"England Women\",
+      \"team-2\": \"West Indies Women\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1223943,
+      \"date\": \"2020-09-30T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-09-30T03:45:00.000Z\",
+      \"team-1\": \"Australia Women\",
+      \"team-2\": \"New Zealand Women\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216503,
+      \"date\": \"2020-10-01T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-01T14:00:00.000Z\",
+      \"team-1\": \"Kings XI Punjab\",
+      \"team-2\": \"Mumbai Indians\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1207789,
+      \"date\": \"2020-10-01T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-01T17:00:00.000Z\",
+      \"team-1\": \"Nottinghamshire\",
+      \"team-2\": \"Leicestershire\",
+      \"squad\": true,
+      \"matchStarted\": false,
+      \"type\": \"\"
+    },
+    {
+      \"unique_id\": 1207788,
+      \"date\": \"2020-10-01T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-01T13:00:00.000Z\",
+      \"team-1\": \"Gloucestershire\",
+      \"team-2\": \"Northamptonshire\",
+      \"squad\": true,
+      \"matchStarted\": false,
+      \"type\": \"\"
+    },
+    {
+      \"unique_id\": 1231353,
+      \"date\": \"2020-10-01T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-01T04:30:00.000Z\",
+      \"team-1\": \"Central Punjab 2nd XI (Pakistan)\",
+      \"team-2\": \"Sindh 2nd XI\",
+      \"type\": \"Twenty20\",
+      \"squad\": false,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1231352,
+      \"date\": \"2020-10-01T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-01T04:30:00.000Z\",
+      \"team-1\": \"Balochistan 2nd XI\",
+      \"team-2\": \"Khyber Pakhtunkhwa 2nd XI\",
+      \"type\": \"Twenty20\",
+      \"squad\": false,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1231322,
+      \"date\": \"2020-10-01T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-01T14:30:00.000Z\",
+      \"team-1\": \"Northern (Pakistan)\",
+      \"team-2\": \"Southern Punjab (Pakistan)\",
+      \"type\": \"Twenty20\",
+      \"squad\": false,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1231321,
+      \"date\": \"2020-10-01T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-01T10:00:00.000Z\",
+      \"team-1\": \"Balochistan\",
+      \"team-2\": \"Sindh\",
+      \"type\": \"Twenty20\",
+      \"squad\": false,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1229396,
+      \"date\": \"2020-10-01T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-01T12:00:00.000Z\",
+      \"team-1\": \"Sussex\",
+      \"team-2\": \"Lancashire\",
+      \"squad\": true,
+      \"matchStarted\": false,
+      \"type\": \"\"
+    },
+    {
+      \"unique_id\": 1229395,
+      \"date\": \"2020-10-01T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-01T12:00:00.000Z\",
+      \"team-1\": \"Surrey\",
+      \"team-2\": \"Kent\",
+      \"squad\": true,
+      \"matchStarted\": false,
+      \"type\": \"\"
+    },
+    {
+      \"unique_id\": 1216516,
+      \"date\": \"2020-10-02T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-02T14:00:00.000Z\",
+      \"team-1\": \"Chennai Super Kings\",
+      \"team-2\": \"Sunrisers Hyderabad\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216514,
+      \"date\": \"2020-10-03T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-03T10:00:00.000Z\",
+      \"team-1\": \"Royal Challengers Bangalore\",
+      \"team-2\": \"Rajasthan Royals\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216515,
+      \"date\": \"2020-10-03T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-03T14:00:00.000Z\",
+      \"team-1\": \"Delhi Capitals\",
+      \"team-2\": \"Kolkata Knight Riders\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216513,
+      \"date\": \"2020-10-04T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-04T14:00:00.000Z\",
+      \"team-1\": \"Kings XI Punjab\",
+      \"team-2\": \"Chennai Super Kings\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216538,
+      \"date\": \"2020-10-04T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-04T10:00:00.000Z\",
+      \"team-1\": \"Mumbai Indians\",
+      \"team-2\": \"Sunrisers Hyderabad\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216519,
+      \"date\": \"2020-10-05T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-05T14:00:00.000Z\",
+      \"team-1\": \"Royal Challengers Bangalore\",
+      \"team-2\": \"Delhi Capitals\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216511,
+      \"date\": \"2020-10-06T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-06T14:00:00.000Z\",
+      \"team-1\": \"Mumbai Indians\",
+      \"team-2\": \"Rajasthan Royals\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216501,
+      \"date\": \"2020-10-07T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-07T14:00:00.000Z\",
+      \"team-1\": \"Kolkata Knight Riders\",
+      \"team-2\": \"Chennai Super Kings\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216542,
+      \"date\": \"2020-10-08T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-08T14:00:00.000Z\",
+      \"team-1\": \"Sunrisers Hyderabad\",
+      \"team-2\": \"Kings XI Punjab\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216500,
+      \"date\": \"2020-10-09T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-09T14:00:00.000Z\",
+      \"team-1\": \"Rajasthan Royals\",
+      \"team-2\": \"Delhi Capitals\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216523,
+      \"date\": \"2020-10-10T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-10T10:00:00.000Z\",
+      \"team-1\": \"Kings XI Punjab\",
+      \"team-2\": \"Kolkata Knight Riders\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216525,
+      \"date\": \"2020-10-10T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-10T14:00:00.000Z\",
+      \"team-1\": \"Chennai Super Kings\",
+      \"team-2\": \"Royal Challengers Bangalore\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216507,
+      \"date\": \"2020-10-11T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-11T10:00:00.000Z\",
+      \"team-1\": \"Sunrisers Hyderabad\",
+      \"team-2\": \"Rajasthan Royals\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216529,
+      \"date\": \"2020-10-11T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-11T14:00:00.000Z\",
+      \"team-1\": \"Mumbai Indians\",
+      \"team-2\": \"Delhi Capitals\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216540,
+      \"date\": \"2020-10-12T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-12T14:00:00.000Z\",
+      \"team-1\": \"Royal Challengers Bangalore\",
+      \"team-2\": \"Kolkata Knight Riders\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216528,
+      \"date\": \"2020-10-13T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-13T14:00:00.000Z\",
+      \"team-1\": \"Sunrisers Hyderabad\",
+      \"team-2\": \"Chennai Super Kings\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216543,
+      \"date\": \"2020-10-14T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-14T14:00:00.000Z\",
+      \"team-1\": \"Delhi Capitals\",
+      \"team-2\": \"Rajasthan Royals\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216531,
+      \"date\": \"2020-10-15T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-15T14:00:00.000Z\",
+      \"team-1\": \"Royal Challengers Bangalore\",
+      \"team-2\": \"Kings XI Punjab\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216526,
+      \"date\": \"2020-10-16T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-16T14:00:00.000Z\",
+      \"team-1\": \"Mumbai Indians\",
+      \"team-2\": \"Kolkata Knight Riders\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216509,
+      \"date\": \"2020-10-17T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-17T14:00:00.000Z\",
+      \"team-1\": \"Delhi Capitals\",
+      \"team-2\": \"Chennai Super Kings\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216522,
+      \"date\": \"2020-10-17T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-17T10:00:00.000Z\",
+      \"team-1\": \"Rajasthan Royals\",
+      \"team-2\": \"Royal Challengers Bangalore\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216512,
+      \"date\": \"2020-10-18T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-18T10:00:00.000Z\",
+      \"team-1\": \"Sunrisers Hyderabad\",
+      \"team-2\": \"Kolkata Knight Riders\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216517,
+      \"date\": \"2020-10-18T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-18T14:00:00.000Z\",
+      \"team-1\": \"Mumbai Indians\",
+      \"team-2\": \"Kings XI Punjab\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216533,
+      \"date\": \"2020-10-19T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-19T14:00:00.000Z\",
+      \"team-1\": \"Chennai Super Kings\",
+      \"team-2\": \"Rajasthan Royals\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216546,
+      \"date\": \"2020-10-20T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-20T14:00:00.000Z\",
+      \"team-1\": \"Kings XI Punjab\",
+      \"team-2\": \"Delhi Capitals\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216494,
+      \"date\": \"2020-10-21T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-21T14:00:00.000Z\",
+      \"team-1\": \"Kolkata Knight Riders\",
+      \"team-2\": \"Royal Challengers Bangalore\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216518,
+      \"date\": \"2020-10-22T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-22T14:00:00.000Z\",
+      \"team-1\": \"Rajasthan Royals\",
+      \"team-2\": \"Sunrisers Hyderabad\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216521,
+      \"date\": \"2020-10-23T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-23T14:00:00.000Z\",
+      \"team-1\": \"Chennai Super Kings\",
+      \"team-2\": \"Mumbai Indians\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216497,
+      \"date\": \"2020-10-24T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-24T10:00:00.000Z\",
+      \"team-1\": \"Kolkata Knight Riders\",
+      \"team-2\": \"Delhi Capitals\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216498,
+      \"date\": \"2020-10-24T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-24T14:00:00.000Z\",
+      \"team-1\": \"Kings XI Punjab\",
+      \"team-2\": \"Sunrisers Hyderabad\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216541,
+      \"date\": \"2020-10-25T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-25T14:00:00.000Z\",
+      \"team-1\": \"Rajasthan Royals\",
+      \"team-2\": \"Mumbai Indians\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216544,
+      \"date\": \"2020-10-25T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-25T10:00:00.000Z\",
+      \"team-1\": \"Royal Challengers Bangalore\",
+      \"team-2\": \"Chennai Super Kings\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216520,
+      \"date\": \"2020-10-26T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-26T14:00:00.000Z\",
+      \"team-1\": \"Kolkata Knight Riders\",
+      \"team-2\": \"Kings XI Punjab\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216524,
+      \"date\": \"2020-10-27T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-27T14:00:00.000Z\",
+      \"team-1\": \"Sunrisers Hyderabad\",
+      \"team-2\": \"Delhi Capitals\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216499,
+      \"date\": \"2020-10-28T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-28T14:00:00.000Z\",
+      \"team-1\": \"Mumbai Indians\",
+      \"team-2\": \"Royal Challengers Bangalore\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216536,
+      \"date\": \"2020-10-29T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-29T14:00:00.000Z\",
+      \"team-1\": \"Chennai Super Kings\",
+      \"team-2\": \"Kolkata Knight Riders\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216537,
+      \"date\": \"2020-10-30T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-30T14:00:00.000Z\",
+      \"team-1\": \"Kings XI Punjab\",
+      \"team-2\": \"Rajasthan Royals\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216502,
+      \"date\": \"2020-10-31T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-31T14:00:00.000Z\",
+      \"team-1\": \"Royal Challengers Bangalore\",
+      \"team-2\": \"Sunrisers Hyderabad\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216535,
+      \"date\": \"2020-10-31T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-10-31T10:00:00.000Z\",
+      \"team-1\": \"Delhi Capitals\",
+      \"team-2\": \"Mumbai Indians\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216506,
+      \"date\": \"2020-11-01T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-11-01T10:00:00.000Z\",
+      \"team-1\": \"Chennai Super Kings\",
+      \"team-2\": \"Kings XI Punjab\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216530,
+      \"date\": \"2020-11-01T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-11-01T14:00:00.000Z\",
+      \"team-1\": \"Kolkata Knight Riders\",
+      \"team-2\": \"Rajasthan Royals\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216505,
+      \"date\": \"2020-11-02T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-11-02T14:00:00.000Z\",
+      \"team-1\": \"Delhi Capitals\",
+      \"team-2\": \"Royal Challengers Bangalore\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    },
+    {
+      \"unique_id\": 1216495,
+      \"date\": \"2020-11-03T00:00:00.000Z\",
+      \"dateTimeGMT\": \"2020-11-03T14:00:00.000Z\",
+      \"team-1\": \"Sunrisers Hyderabad\",
+      \"team-2\": \"Mumbai Indians\",
+      \"type\": \"Twenty20\",
+      \"squad\": true,
+      \"matchStarted\": false
+    }
+  ],
+  \"v\": \"1\",
+  \"ttl\": 282,
+  \"provider\": {
+    \"source\": \"Various\",
+    \"url\": \"https://cricapi.com/\",
+    \"pubDate\": \"2020-09-28T15:14:50.816Z\"
+  },
+  \"creditsLeft\": 250
+}
+    </string>
+  <string name="pref_category_updates">IPL Mania</string>
+  <string name="pref_key_ipl_updates">key_show_updates</string>
+  <string name="pref_show_ipl_updates">Show IPL updates</string>
+    <string name="key_notFirstTimeIPLUpdate">notFirstTimeIPLUpdate</string>
+
+</resources>

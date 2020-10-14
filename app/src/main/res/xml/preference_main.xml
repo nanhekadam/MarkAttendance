@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/pref_category_user_details"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="@string/pref_key_login"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_login_details"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_notification"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_notify"
+            android:title="@string/pref_notify_mark_attendance"
+            app:iconSpaceReserved="false"/>
+
+        <Preference
+            android:defaultValue="Not Set"
+            android:dependency="@string/pref_key_notify"
+            android:enabled="true"
+            android:key="@string/pref_key_notif_time"
+            android:title="@string/pref_set_notif_time"
+            app:iconSpaceReserved="false"
+            android:singleLineTitle="false"
+            android:summary="@string/pref_time_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_updates"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/pref_key_ipl_updates"
+            android:title="@string/pref_show_ipl_updates"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
