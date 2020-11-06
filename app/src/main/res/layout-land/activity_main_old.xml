@@ -16,7 +16,7 @@
 
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/welcomeTextView"
         style="@style/TextAppearance.AppCompat.Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/welcomeTextView" />
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"

@@ -57,9 +57,9 @@ public class WebFragment extends Fragment {
             }
         });
         AdView mAdView = view.findViewById(R.id.adView_web);
-        AdRequest adRequest = new AdRequest.Builder().build();
-//                .addTestDevice("31CEEF2EE3DB8042E939736CA6E38142")
-//                .build();
+        AdRequest adRequest = new AdRequest.Builder()//.build();
+                .addTestDevice("31CEEF2EE3DB8042E939736CA6E38142")
+                .build();
         mAdView.loadAd(adRequest);
 
         String url = "http://reppi-puc2.rites.com:55100/irj/portal";

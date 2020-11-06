@@ -34,9 +34,9 @@ public class PrivacyActivity extends AppCompatActivity {
             }
         });
         AdView mAdView = findViewById(R.id.adViewPrivacy);
-        AdRequest adRequest = new AdRequest.Builder().build();
-//                .addTestDevice("31CEEF2EE3DB8042E939736CA6E38142")
-//                .build();
+        AdRequest adRequest = new AdRequest.Builder()//.build();
+                .addTestDevice("31CEEF2EE3DB8042E939736CA6E38142")
+                .build();
         mAdView.loadAd(adRequest);
     }
 
